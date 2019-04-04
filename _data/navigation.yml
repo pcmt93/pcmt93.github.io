@@ -1,13 +1,5 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
     
   - title: "CV"
     url: https://drive.google.com/file/d/13ZprvaRHLY05XUrQlbRy1QE6X__htVmc/view?usp=sharing
