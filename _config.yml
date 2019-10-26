@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Paulo Matos"
 title_separator          : "-"
 name                     : &name "Paulo Matos"
-description              : &description "Research Associate at Innovations for Poverty Action"
+description              : &description "Senior Research Specialist at Princeton University"
 url                      : https://pcmt93.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/pcmt93.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Paulo Matos"
   avatar           : "PM.png"
-  bio              : "Research Associate at Innovations for Poverty Action"
-  location         : "Lima, Peru"
+  bio              : "Senior Research Specialist at Princeton University"
+  location         : "Princeton, New Jersey"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "matos.p@pucp.pe"
+  email            : "pmatos@princeton.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
