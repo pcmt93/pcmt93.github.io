@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Paulo Matos is BA in Economics at Pontificia Universidad Católica del Perú (PUCP) and currently a Research Associate at Innovations for Poverty Action. Previously in Instituto de Estudios Peruanos (IEP, Institute of Peruvian Studies) and Department of Economics at PUCP. His major interests are development economics, social studies, computer science and mathematics
+Welcome! I am Bachelor in Economics at Pontificia Universidad Católica del Perú (PUCP) and currently I am working at Princeton University as a Predoctoral Fellow. Previously in Innovations for Poverty Action (IPA) and Instituto de Estudios Peruanos (IEP, Institute of Peruvian Studies). My major interests are development economics, computer science and mathematics.
