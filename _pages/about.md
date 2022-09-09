@@ -8,7 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-**Welcome!** I am Bachelor in Economics at Pontificia Universidad Católica del Perú (PUCP) and I am currently working at Princeton University as a Predoctoral Fellow. Previously in Innovations for Poverty Action (IPA) and Instituto de Estudios Peruanos (IEP, Institute of Peruvian Studies). My major interests are development economics, computer science and mathematics.
+**Welcome!** I am PhD student in Social Sciences (Economics) at The California Institute of Technology. Previously, I was a Pre-Doctoral Fellow in the Department of Economics at Princeton University, and a Research Associate at Innovations for Poverty Action (IPA). My major areas of interests encompass Political Economy, Crime, and Applied Microeconomics.
 
-Contact me at:
-[pmatos@princeton.edu](mailto:pmatos@princeton.edu?subject=[GitHub]%20Source%20Han%20Sans)
+**Contact Information**
+Email: pmatostr<at>caltech<dot>edu
+
+Division of Humanities and Social Sciences
+California Institute of Technology
+MC 228-77
+Pasadena, CA 91125
