@@ -10,10 +10,10 @@ redirect_from:
 
 **Welcome!** I am PhD student in Social Sciences (Economics) at The California Institute of Technology. Previously, I was a Pre-Doctoral Fellow in the Department of Economics at Princeton University, and a Research Associate at Innovations for Poverty Action (IPA). My major areas of interests encompass Political Economy, Crime, and Applied Microeconomics.
 
-**Contact Information**
-Email: pmatostr<at>caltech<dot>edu
+**Contact Information** <br />
+Email: pmatostr@caltech.edu
 
-Division of Humanities and Social Sciences
-California Institute of Technology
-MC 228-77
-Pasadena, CA 91125
+Division of Humanities and Social Sciences <br />
+California Institute of Technology <br />
+MC 228-77 <br />
+Pasadena, CA 91125 <br />
