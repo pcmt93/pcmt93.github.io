@@ -52,7 +52,7 @@ body {
 
 .main-grid {
   display: grid;
-  grid-template-columns: 270px minmax(0, 1fr);
+  grid-template-columns: 250px minmax(0, 1fr);
   column-gap: 96px;
   align-items: start;
 }
@@ -102,7 +102,7 @@ body {
 
 .welcome-text {
   margin: 0 0 14px 0;
-  max-width: 760px;
+  max-width: 620px;
 }
 
 .quick-links {
@@ -120,19 +120,19 @@ body {
 .right-divider {
   width: 100%;
   border-bottom: 1px dashed var(--dash);
-  margin: 18px 0 34px 0;
+  margin: 18px 0 28px 0;
 }
 
 .section-separator {
-  margin: 6px 0 42px 0;
+  margin: 6px 0 28px 0;
 }
 
 .section-block {
-  margin-bottom: 34px;
+  margin-bottom: 24px;
 }
 
 .section-major {
-  margin-bottom: 62px;
+  margin-bottom: 24px;
 }
 
 h2 {
@@ -185,9 +185,13 @@ a:hover {
   text-decoration: underline;
 }
 
+.abstract-box summary .paper-link {
+  margin-left: 0.6em;
+}
+
 .abstract-box p {
   margin: 8px 0 0 0;
-  max-width: 760px;
+  max-width: 620px;
   color: var(--text);
 }
 
@@ -216,15 +220,19 @@ details > summary::-webkit-details-marker {
   }
 
   .right-divider {
-    margin: 18px 0 28px 0;
+    margin: 18px 0 24px 0;
   }
 
   .section-separator {
-    margin: 4px 0 34px 0;
+    margin: 4px 0 24px 0;
+  }
+
+  .section-block {
+    margin-bottom: 22px;
   }
 
   .section-major {
-    margin-bottom: 48px;
+    margin-bottom: 22px;
   }
 
   h2 {
