@@ -6,6 +6,12 @@
   <title>Paulo Matos</title>
   <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="stylesheet" href="style.css" />
+  <!-- Spacing for the [Paper] link that now sits next to [Abstract].
+       Move these two rules into style.css and delete this block if you prefer. -->
+  <style>
+    .abstract-box > summary > .paper-link { margin-left: 0.6em; }
+    .abstract-box > summary { cursor: pointer; }
+  </style>
 </head>
 <body>
   <main class="page">
@@ -38,6 +44,10 @@
           Welcome! I am a PhD candidate in Social Sciences at the California Institute of Technology. I am a political economist focusing on crime, policing, and public policy. My research combines data and formal theory to study how policies and institutions shape behavior and affect economic and social outcomes.
         </p>
 
+        <p class="job-market-line">
+          I am on the academic job market during the 2026-2027 cycle.
+        </p>
+
         <p class="quick-links">
         You can find my <a href="cv_pm_update_version.pdf">[CV]</a> and
         <a href="https://x.com/pmatostr">[X]</a> page here.
@@ -51,48 +61,72 @@
         <div class="right-divider"></div>
 
         <section class="section-block section-major">
-          <h2>Work In Progress</h2>
+          <h2>Working Papers</h2>
 
           <div class="paper">
             <p class="paper-title">
-              We Have Your Back? Discretion and Peer Effects on Police Discipline
+              We Have Your Back? Discretion in Police Discipline and Peer Effects on Officer Misconduct
+            </p>
+            <p class="paper-meta">
+              Job Market Paper
             </p>
             <details class="abstract-box">
-              <summary>[Abstract]</summary>
-              <p>How does the implementation of police discipline shape deterrence? I study this question in New York City, where an independent civilian board recommends disciplinary penalties but the NYPD Commissioner retains full authority over final decisions. This institutional structure allows officers to observe both the recommendation and the final disciplinary outcome. I exploit the introduction of the NYC Disciplinary Matrix, which reduced the civilian board's discretion by introducing a clearer mapping between misconduct and recommended penalties, while leaving the Commissioner's discretion unchanged. I find that disciplinary recommendations reduce new allegation rates by 23\% overall, with stronger effects after the reform, reaching 37\%. Conditional on a recommendation, final discipline reduces new allegation rates by 67\%, but this additional effect is concentrated in the pre-reform period and disappears after the matrix. The evidence suggests that recommendations place officers on alert in anticipation of the Commissioner's decision in both policy regimes, while the matrix strengthens deterrence by making lower-level prohibited behaviors and their consequences clearer to officers. At the same time, final decisions become less deterrent after the reform because penalties become more lenient. These findings highlight how institutional design shapes the deterrent effects of police accountability systems.</p>
+              <summary><span class="summary-label">[Abstract]</span><a class="paper-link" href="https://www.dropbox.com/scl/fi/rhwz9j7ssk5oxjjbvbgh6/jmp_paulomatos_online.pdf?rlkey=5f6lpzhfvxjnozzix9eta2knf&amp;dl=0" target="_blank" rel="noopener" onclick="event.stopPropagation();">[Paper]</a></summary>
+              <p>Does police discipline deter misconduct among an officer’s peers? How does the discretion of disciplinary decision-makers shape that deterrence? I study these questions in New York City, where a civilian oversight board recommends penalties and the police commissioner makes the final disciplinary decision. In 2021, the NYPD constrained the board’s discretion by requiring it to base its recommendations on standardized penalties, while leaving the commissioner’s final authority intact. I find that a disciplinary recommendation reduces misconduct among other officers in the same command by about one-fifth, even before any punishment is imposed, and that final discipline produces an additional reduction. The reform reallocated deterrence from the commissioner’s final decision to the board’s recommendation, allowing it to operate about a year earlier. The evidence points to penalty severity: recommended penalties became harsher, while final penalties became less severe. More broadly, the findings show that the effects of disciplinary reform depend on how authority and discretion are distributed across decision-makers.</p>
             </details>
           </div>
 
-                    <div class="paper">
+          <div class="paper">
             <p class="paper-title">
-              Who’s Leading? Institutional Challenges in Civilian Oversight of Law Enforcement
+              Follow Your Lead? Institutional Challenges in Civilian Oversight of Law Enforcement
             </p>
             <details class="abstract-box">
-              <summary>[Abstract]</summary>
-              <p>I develop a game-theoretic model in which a civilian oversight agency and a police chief jointly determine whether to discipline an officer found guilty of misconduct. Decisions depend on the severity of the allegation and the compliance cost of discipline. The agency observes the severity of the allegation but not the compliance cost, while the chief privately observes the compliance cost and may incur a review cost to acquire case-specific information. I show that an increase in the review cost generates two opposing forces shaping the agency’s recommendation behavior. An overruling effect encourages recommendations for discipline, as a higher review cost makes it less likely that the chief reviews and overturns the agency’s recommendation. In contrast, a double-checking effect discourages recommendations, since a higher review cost limits the chief’s ability to review and confirm cases, depriving the agency of valuable information. The interaction of these forces yields a non-monotonic relationship between the review cost and the probability that the agency recommends discipline in equilibrium. Consequently, the institutional framework that maximizes accountability depends on the review cost: a traditional system without civilian oversight is optimal when the review cost is low; an oversight agency that accounts for mitigating factors performs best when the review cost is moderate; and an agency that ignores such factors becomes optimal when the review cost is high.</p>
+              <summary><span class="summary-label">[Abstract]</span><a class="paper-link" href="https://www.dropbox.com/scl/fi/pjah2vs2nwg78zswn3fxn/coas_paulomatos.pdf?rlkey=djmo3ifv6wzzcsw2qa7y323nq&amp;dl=0" target="_blank" rel="noopener" onclick="event.stopPropagation();">[Paper]</a></summary>
+              <p>Which oversight institutions best hold police officers accountable? I develop a game-theoretic model in which a civilian oversight agency recommends discipline for misconduct, but a police chief retains final authority. I compare a fixed-rule internal discipline system with two discretionary oversight agencies: an agency that considers the cost of discipline and a more aggressive agency that does not. The most effective institution depends on the chief’s cost of review and the agency’s cost of being overruled. As either cost rises, accountability is highest under the fixed-rule system, then under the agency that considers the cost of discipline, and finally under the more aggressive agency. Thus, neither replacing fixed rules with discretion nor making oversight more aggressive uniformly improves accountability. The model yields two empirical implications. A reform can affect accountability in opposing directions across departments, so averaging its effects across departments can hide heterogeneity. Greater oversight activity can indicate less, rather than more, accountability.</p>
             </details>
           </div>
+
+          <div class="paper">
+            <p class="paper-title">
+              Trusting Each Other? Learning, Information Leakage, and Optimal Incarceration Policies
+            </p>
+            <details class="abstract-box">
+              <summary><span class="summary-label">[Abstract]</span><a class="paper-link" href="https://www.dropbox.com/scl/fi/eu6uyb03akq8am2ppsqto/theory_incarceration_paulomatos.pdf?rlkey=x7wpikfy4bqvxo4bzntpjojz2&amp;dl=0" target="_blank" rel="noopener" onclick="event.stopPropagation();">[Paper]</a></summary>
+              <p>How does the strategic interaction of inmates within cells influence their future recidivism, and what are the implications for optimal incarceration policies? I address these questions by developing a game-theoretic model in which inmates assigned to the same cell first decide whether to cooperate and, subsequently, whether to reoffend after release. The benefits and costs of cooperation are endogenous: cooperation allows inmates to expand their criminal networks through knowledge transfer but also exposes their future criminal enterprises to their cellmates through information leakage. As a result, recidivism decisions become strategic substitutes between cellmates in equilibrium. The model yields three main findings. First, policies aimed at reducing recidivism, such as improving inmates’ economic conditions or increasing the cost of reoffending, are more effective when cooperation occurs. Second, when inmates differ in criminal skill, segregation minimizes recidivism when the low-skilled inmate’s detection probability is close to that of the high-skilled inmates, whereas non-segregation becomes optimal when he is sufficiently more likely to be detected. Third, when inmates differ in their legitimate outside opportunities, non-segregation minimizes recidivism when the low-opportunity inmate has sufficiently limited outside opportunities, whereas segregation becomes optimal as his outside opportunity approaches that of the other inmates.</p>
+            </details>
+          </div>
+        </section>
+
+        <div class="right-divider section-separator"></div>
+
+        <section class="section-block section-major">
+          <h2>Work In Progress</h2>
 
           <div class="paper">
             <p class="paper-title">
               Mass Incarceration and the Expansion of Gangs: Evidence from El Salvador
             </p>
             <p class="paper-meta">
-              with Felipe Goncalves, Carlos Schmidt-Padilla, and Maria Micaela Sviatschi
+              with <a href="https://www.fmgoncalves.com/">Felipe Goncalves</a>,
+              <a href="https://cschmidtpadilla.github.io/">Carlos Schmidt-Padilla</a>, and
+              <a href="https://www.micaelasviatschi.com/">Maria Micaela Sviatschi</a>
             </p>
             <details class="abstract-box">
-              <summary>[Abstract]</summary>
+              <summary><span class="summary-label">[Abstract]</span></summary>
               <p>We exploit an exogenous government policy in El Salvador that reallocated several high-ranking gang leaders from maximum-security prisons to lower-security facilities between 2012 and 2015, combined with highly detailed administrative incarceration data spanning more than a decade. Our key finding is that inmates exposed to these gang leaders within the first days of a new cell assignment exhibit higher probabilities of future gang-related recidivism, but not of non-gang-related crimes. We identify the transmission of criminal capital from gang leaders to other inmates as the main mechanism driving the increase in recidivism. Moreover, we find that the exposure effect is amplified among inmates with prior gang-related offenses—such as homicide, gang affiliation, or extortion—but is not affected by the pre-existing gang composition of the cell.</p>
             </details>
           </div>
 
           <div class="paper">
             <p class="paper-title">
-              Trusting Each Other? Learning, Information Leakage and Optimal Incarceration Policies
+              Can Community Engagement Policies Backfire?
+            </p>
+            <p class="paper-meta">
+              with <a href="https://sites.google.com/view/victorgamarrae/">Victor Gamarra</a>
             </p>
             <details class="abstract-box">
-              <summary>[Abstract]</summary>
-              <p>How does the strategic interaction of inmates within cells influence their future recidivism, and what are the implications for optimal incarceration policies? I address this question by developing a game-theoretic model in which inmates assigned to the same cell first decide whether to cooperate and, subsequently, whether to reoffend after release. The benefits and costs of cooperation are endogenous: cooperation allows inmates to expand their criminal networks through knowledge transfer but also exposes their future criminal enterprises to their partners through information leakage. As a result, recidivism decisions become strategic substitutes between cellmates in equilibrium. The model yields three main findings. First, policies aimed at reducing recidivism—such as improving inmates’ economic conditions or increasing the cost of reoffending—are more effective when cooperation occurs. Second, inmates do not always find it optimal to cooperate; when they do, enhancing legitimate economic opportunities can reduce incentives for criminal knowledge transmission. Finally, I characterize the conditions under which it is optimal, in terms of minimizing expected recidivism rates, to segregate or mix high-skilled and low-skilled criminals.</p>
+              <summary><span class="summary-label">[Abstract]</span></summary>
+              <p>Community engagement policies are widely used to reduce crime by strengthening coordination between residents, police, and local service providers. This paper studies whether such policies remain effective in socially segmented settings. We exploit the interaction between a common criminal shock—the consolidation of <em>Tren de Aragua</em> by early 2022—and fixed cross-sectional variation in prior exposure to a local community engagement policy across police jurisdictions in Peru. We estimate difference-in-differences and common event-time specifications separately for municipalities with and without significant Venezuelan migrant presence. We find sharply divergent effects. In municipalities with significant Venezuelan presence, the policy increases extortion after gang consolidation by roughly 100% relative to the outcome mean. In municipalities without significant Venezuelan presence, the estimated effect is negative, with consistently declining post-consolidation patterns in the dynamic specification. We find no comparable divergence for non-gang-related outcomes. We interpret these findings as consistent with a mechanism in which participation requirements strengthen protection for socially integrated residents while leaving migrant populations more segregated and vulnerable to gang recruitment. More broadly, the results suggest that community engagement policies may backfire when access to protection is unequal and minority populations remain excluded from local institutions.</p>
             </details>
           </div>
         </section>
