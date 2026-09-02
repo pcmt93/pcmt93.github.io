@@ -181,7 +181,7 @@ a:hover {
   font-weight: 500;
 }
 
-.abstract-box summary:hover {
+.abstract-box summary .summary-label:hover {
   text-decoration: underline;
 }
 
